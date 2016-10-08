@@ -7,7 +7,7 @@ This will just simply change your `$_SERVER` variables.
 ## How to use it
 Simple do this JUST BEFORE EVERYTHING STARTS!
 ```php
-require_once('cf_adapt.php');
+require_once('cf-adapt.php');
 ```
 
 Here's an example with [Fat Free Framework](https://github.com/bcosca/fatfree)
@@ -15,7 +15,7 @@ Here's an example with [Fat Free Framework](https://github.com/bcosca/fatfree)
 ```php
 
 $playlist = [
-  'app/Adaptor/cd-adapt.php', // see? this is the adaptor
+  'app/Adaptor/cf-adapt.php', // see? this is the adaptor
   'app/f3/base.php',
   'app/config.php',
   'app/app.php'
