@@ -7,21 +7,19 @@ This will just simply change your `$_SERVER` variables.
 ## How to use it
 Simple do this JUST BEFORE EVERYTHING STARTS!
 ```php
-require_once('cf-adapt.php');
+require_once('cf-adaptor/cf-adaptor.php');
 ```
 
 Here's an example with [Fat Free Framework](https://github.com/bcosca/fatfree)
 
 ```php
 
-$playlist = [
-  'app/Adaptor/cf-adapt.php', // see? this is the adaptor
+array_map(function($_p){ require_once($_p); },[
+  'app/Adaptor/cf-adaptor.php', // see? this is the adaptor
   'app/f3/base.php',
   'app/config.php',
   'app/app.php'
-];
-for($_p = 0; $_p<count($playlist); $_p++)
-  require_once($playlist[$_p]);
+]);
 \F3::run();
 
 ```
