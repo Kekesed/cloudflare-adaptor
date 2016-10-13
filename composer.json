@@ -12,7 +12,6 @@
             "email": "kekesed.id@gmail.com"
         }
     ],
-    "minimum-stability": "beta",
     "autoload": {
 		"files": ["cf-adaptor/cf-adaptor.php"]
 	}
