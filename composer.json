@@ -1,0 +1,19 @@
+{
+    "name": "kekesed/cloudflare-adaptor",
+    "description": "An easy way to normalize your Cloudflare-altered HTTP Information with a single line.",
+    "type": "library",
+    "require": {
+        "php": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kekesed",
+            "email": "iam@kekesed.id"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+		"files": ["cf-adaptor/cf-adaptor.php"]
+	}
+}
