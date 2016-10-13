@@ -12,6 +12,12 @@
             "email": "kekesed.id@gmail.com"
         }
     ],
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Kekesed/cloudflare-adaptor"
+		}
+	],
     "autoload": {
 		"files": ["cf-adaptor/cf-adaptor.php"]
 	}
